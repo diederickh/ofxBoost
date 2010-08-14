@@ -18,7 +18,7 @@ installation...
 ./bjam.exe toolset=gcc target-os=windows --layout=versioned install
 
 This created C:\Boost\
-  
+ 
 
 Compiling boost on Mac OSX
 ===========================
@@ -54,6 +54,4 @@ before including any of the boost .hpp files where you need those
 - Add this to your search paths: ../../../addons_diederick/ofxBoost/src/lib/
 - Add the static libs form the ofxBoost/lib/mac dir to your project by dragging
 them on your project.
-
-
-  
+- Add libs
