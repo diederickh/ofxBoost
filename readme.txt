@@ -55,3 +55,7 @@ before including any of the boost .hpp files where you need those
 - Add the static libs form the ofxBoost/lib/mac dir to your project by dragging
 them on your project.
 
+Installing on Windows (Code::Blocks)
+====================================
+- Add the static libs from the directory ofxBoost\lib\*.a to your linker settings
+- Add the dir to ofxBoost\lib\ to your search directories
