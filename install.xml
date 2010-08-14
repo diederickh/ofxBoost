@@ -1,0 +1,11 @@
+<install>
+	<name>ofxBoost</name>
+	<version>0.01</version>
+	<author>Diederick Huijbers</author>
+	<url>http://www.roxlu.com</url>
+	<add>
+		<include>
+			<path>../../../addons_diederick/ofxBoost/src/lib/</path>
+		</include>
+	</add>
+</install>
