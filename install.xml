@@ -7,5 +7,10 @@
 		<include>
 			<path>../../../addons_diederick/ofxBoost/src/lib/</path>
 		</include>
+		<link>
+			<lib os="win_cb" compiler="codeblocks">..\..\..\addons_diederick\ofxBoost\lib\win\libboost_system-mgw34-mt-1_43.a</lib>
+			<lib os="win_cb" compiler="codeblocks">..\..\..\addons_diederick\ofxBoost\lib\win\libboost_thread-mgw34-mt-1_43.a</lib>
+			<lib os="win_cb" compiler="codeblocks">..\..\..\addons_diederick\ofxBoost\lib\win\libboost_filesystem-mgw34-mt-1_43.a</lib>
+		</link>
 	</add>
 </install>
