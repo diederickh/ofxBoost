@@ -51,7 +51,7 @@ Installing on Mac OSX (XCode)
 #undef check 
 before including any of the boost .hpp files where you need those
 
-- Add this to your search paths: ../../../addons_diederick/ofxBoost/src/lib/
+- Add this to your search paths: ../../../addons_roxlu/ofxBoost/src/lib/
 - Add the static libs form the ofxBoost/lib/mac dir to your project by dragging
 them on your project.
 
