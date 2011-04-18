@@ -2,7 +2,24 @@
 	<name>ofxBoost</name>
 	<version>0.01</version>
 	<author>Diederick Huijbers</author>
-	<url>http://www.roxlu.com</url>
+	
+	
+	<author_website>http://www.roxlu.com</author_website>
+	<code_url>https://github.com/roxlu/ofxBoost</code_url>
+	<site_url>http://www.roxlu.com</site_url>
+	<download_url>https://github.com/roxlu/ofxBoost/zipball/master</download_url>
+	<forum_url></forum_url>
+	<supported_os>
+		<win>y</win>
+    		<mac>y</mac>
+    		<linux>n</linux>
+    	</supported_os>
+    <description><![CDATA[
+ofxBoost let you use all of boosts features. This addon contains precompiled
+Boost libraries so you don't have to compile Boost yourself.
+    ]]></description>
+    <has_example>n</has_example>
+	
 	<add>
 		<include>
 			<path>../../../addons_diederick/ofxBoost/src/lib/</path>
@@ -13,4 +30,7 @@
 			<lib os="win_cb" compiler="codeblocks">..\..\..\addons_diederick\ofxBoost\lib\win\libboost_filesystem-mgw34-mt-1_43.a</lib>
 		</link>
 	</add>
+	
+
+	
 </install>
